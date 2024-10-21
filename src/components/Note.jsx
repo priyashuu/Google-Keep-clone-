@@ -9,7 +9,7 @@ function Note(props) {
         return (
           <div className="note">
             <h1>{notes.title}</h1>
-            <p>{notes.content} </p>{" "}
+            <p>{notes.content} </p>
           </div>
         );
       })}
